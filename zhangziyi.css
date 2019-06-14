@@ -1,0 +1,606 @@
+body {
+	background-color:#f5f5f5 !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, figure, form, fieldset, legend, button, input, textarea, select th, td {
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3, h4, h5, h6 {
+	color:#333;
+}
+
+ul,ol,li{
+	list-style:none;
+}
+
+b{
+	font-style:bold;
+	font-weight:700;
+}
+
+address,cite,dfn,em,var,i {
+	font-style:normal;
+}
+
+.videoback {
+	position:relative;
+	background-color:#0A318A;
+	height:285px;
+	overflow:hidden;
+}
+
+.second {
+	width:935px;
+	margin:auto;
+	position:relative;
+	height:100%;
+}
+
+video {
+	position:absolute;
+	width:100%;
+}
+
+.header {
+	width:400px;
+	height:225px;
+	margin-left:150px;
+	background:#06122F;
+	box-shadow:0px 2px 4px 0px rgba(0,0,0,0.3);
+	border-radius:0 4px 4px 0;
+	float:left;
+	position:relative;
+	top:50%;
+	margin-top:-112.5px;
+	overflow:hidden;
+}
+
+.s1-slogan{
+	width:140px;
+	height:55px;
+	background:url(https://baikebcs.bdimg.com/front-end/second-know/img/logo.png) no-repeat;
+	background-size:contain;
+	float:left;
+	position:relative;
+	top:50%;
+	margin-top:-27.5px;
+}
+
+.s1-sub-slogen{
+	width:90px;
+	height:70px;
+	background:url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/configModule/secondsKnowLarge/img/sub-slogen_cef21db.svg) no-repeat center;
+	background-size:contain;
+	margin-left:25px;
+	float:left;
+	position:relative;
+	top:50%;
+	margin-top:-35px;
+}
+
+.feature-poster {
+	margin-top:20px;
+}
+
+.poster {
+	width:1137px;
+	background:#FFF;
+	margin:0 auto 14px;
+	border:solid 1px #E5E5E5;
+	box-shadow:0px 2px 3px -2px #d5d5d5;
+	font-family:arial,tahoma,"Microsoft Yahei","宋体",sans-serif;
+	position:relative;
+	padding:29px 0;
+}
+
+.summary-pic {
+	float:right;
+	overflow:hidden;
+	max-height:362px;
+	margin-right:20px;
+}
+
+a {
+	text-decoration:none;
+	color:#136ec2;
+}
+
+img {
+	border:0;
+	margin:0 auto;
+	display:block;
+}
+
+.picAlbumBtn {
+	background:rgba(136,136,136,.8);
+	display:block;
+	position:absolute;
+	padding:5px 10px 10px 11px;
+	color:#fff;
+	font-size:14px;
+	line-height:1;
+	font-family:arial,tahoma,"Microsoft Yahei","宋体",sans-serif;
+	right:10px;
+	bottom:10px;
+	border-radius:3px;
+	text-decoration:none;
+	border:0;
+	cursor:pointer;
+	transition:.2s;
+}
+
+.picAlbumBtn em{
+	padding:3px 4px 4px;
+	border:solid 1px #fff;
+	line-height:0;
+	font-size:0px;
+	margin-right:6px;
+	box-shadow:-1px 1px 0px 0px rgba(0,0,0,0.65),-2px 2px 0px 0px #fff;
+	text-decoration:none;
+}
+
+.picAlbumBtn *{
+	vertical-align:middle;
+}
+
+.con {
+	width:790px;
+	padding-left:29px;
+	color:#333;
+	position:relative;
+}
+
+.lemma{
+	margin:0 0 10px;
+	width:700px;
+	font-family:arial,tahoma,"Microsoft Yahei","宋体",sans-serif;
+}
+
+.lemma-title{
+	margin:0 0 5px;
+}
+
+h1{
+	margin:0 10px 0;
+	display:inline;
+	line-height:1.15;
+	font-weight:400;
+	vertical-align:sub;
+	font-size:38px;
+}
+
+.keyInfo{
+	border-left:3px solid #52a3f5;
+	color:#474849;
+	font-size:14px;
+	line-height:1;
+	background:#eef7fd;
+	padding:6px 2px 6px 10px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.keyInfo ul li{
+	float:left;
+	border-left:1px solid #d1dfe8;
+	padding:0 8px;
+}
+
+#first{
+	border:0;
+}
+
+.desc {
+	position:relative;
+	text-indent:2em;
+	font-size:14px;
+	line-height:24px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+
+.summary {
+	font-size:14px;
+	word-wrap:break-word;
+	color:#333;
+	margin-bottom:15px;
+	text-indent:24px;
+}
+
+.para {
+	margin-bottom:5px;
+}
+
+.container {
+	margin-right:-30px;
+	height:150px;
+}
+
+.works {
+	width:371px;
+	float:left;
+	margin-right:45px;
+}
+
+.works dt{
+	font-size:16px;
+	font-weight:700;
+	font-family:"Microsoft Yahei";
+}
+
+.works em{
+	font-size:16px;
+	font-weight:700;
+	font-family:"Microsoft Yahei";
+	color:#519cea;
+}
+
+.works dd{
+	position:relative;
+	color:#333;
+}
+
+.viewport{
+	width:100%;
+	height:122px;
+	overflow:hidden;
+	position:relative;
+}
+
+.slider{
+	position:absolute;
+	width:1000%;
+	left:0px;
+	top:13px;
+}
+
+.works .slider li{
+	position:relative;
+	float:left;
+	margin-right:14px;
+	box-shadow:1px 2px #e5e5e5;
+	width:82px;
+	height:102px;
+}
+
+.works .slider li .name{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	background:rgba(0,0,0,.4);
+	color:#fff;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-size:12px;
+}
+
+.relations {
+	width:310px;
+	float:left;
+	margin-right:45px;
+}
+
+.relations dt{
+	font-size:16px;
+	font-weight:700;
+	font-family:"Microsoft Yahei";
+}
+
+.relations em{
+	font-size:16px;
+	font-weight:700;
+	font-family:"Microsoft Yahei";
+	color:#519cea;
+}
+
+.relations .slider li{
+	position:relative;
+	float:left;
+	margin-right:14px;
+	width:86px;
+}
+
+.relations .slider img{
+	width:82px;
+	height:82px;
+	border:solid 2px #fff;
+	border-radius:82px;
+	box-shadow:0px 2px 1px #e5e5e5;
+}
+
+.relations .slider li .name{
+	width:100%;
+	height:23px;
+	line-height:23px;
+	text-align:center;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-top:-6px;
+	font-size:12px;
+	color:#333;
+}
+
+.relations .slider li .name em{
+	font-size:12px;
+	color:#519cea;
+}
+
+.content {
+	padding:0 29px 0;
+	position:relative;
+	margin:15px 0 0;
+	margin-left:105px;
+	background:#fff;
+	width:1137px;
+	border:1px solid #e5e5e5;
+}
+
+.inner-content{
+	width:790px;
+}
+
+.headline{
+	border-left:solid 12px #4F9CEE;
+	font-size:22px;
+	display:block;
+	font-family:"Microsoft Yahei",SimHei,Verdana;
+	font-weight:500;
+	line-height:22px;
+	margin:35px 0 15px -30px;
+	background:url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/customTitle/img/title-line_c5e6d61.png) repeat-x;
+	overflow:hidden;
+	position:relative;
+}
+
+.headline-content{
+	line-height:1;
+	color:#000;
+	background:#fff;
+	padding:0 8px 0 18px;
+}
+
+.basic {
+	margin:20px 0 35px;
+	background:url(https://bkssl.bdimg.com/static/wiki-lemma/widget/lemma_content/mainContent/basicInfo/img/basicInfo-bg_7819f20.png);
+}
+
+.basicInfo-left{
+	width:395px;
+	float:left;
+}
+
+.basicInfo-name{
+	width:90px;
+	padding:0 5px 0 12px;
+	font-weight:700;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	word-wrap:normal;
+	color:#999;
+	line-height:26px;
+	display:block;
+	margin:0;
+	float:left;
+	font-size:12px;
+}
+
+.basicInfo-value{
+	color:#333;
+	width:285px;
+	float:left;
+	position:relative;
+	word-break:break-all;
+	line-height:26px;
+	display:block;
+	margin:0;
+	font-size:12px;
+}
+
+.basicInfo-right{
+	width:395px;
+	float:left;
+}
+
+.newsub{
+	padding-top:3px;
+	clear:both;
+}
+
+.experience {
+	font-size:14px;
+	word-wrap:break-word;
+	color:#333;
+	margin-bottom:15px;
+	text-indent:2em;
+	line-height:24px;
+}
+
+.gif {
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+
+.text-pic{
+	float:right;
+	margin-left:0px;
+	clear:right;
+	margin:0 0 10px;
+	margin-bottom:3px;
+	position:relative;
+	border:1px solid #e0e0e0;
+	overflow:hidden;
+}
+
+#pic1{
+	width:220px;
+	height:111px;
+}
+
+#pic2{
+	width:250px;
+	height:104px;
+}
+
+#pic3 {
+	width:250px;
+	height:106px;
+}
+
+.level-3{
+	clear:both;
+	margin:20px 0 12px;
+	line-height:20px;
+	font-size:18px;
+	font-weight:400;
+	font-family:Microsoft Yahei,SimHei,Verdana
+}
+
+h3{
+	font-size:18px;
+	font-weight:400;
+	color:#333;
+}
+
+.movie{
+	height:auto;
+	overflow:hidden;
+	margin-bottom:18px;
+}
+
+.viewmovie {
+	width:790px;
+	overflow:hidden;
+	position:relative;
+}
+.scholl{
+	width:3200px;
+	position:relative;
+}
+
+.pages{
+	width:790px;
+	float:left;
+}
+
+.starworkslist{
+	clear:both;
+	border-bottom:solid 1px #eee;
+	overflow:hidden;
+}
+
+.listItem{
+	width:380px;
+	overflow:hidden;
+	font-size:12px;
+	position:relative;
+	float:left;
+	padding-right:15px;
+	margin:12px 0;
+}
+
+.coverPic{
+	width:64px;
+	height:87px;
+	border:solid 1px #efefef;
+	float:left;
+	overflow:hidden;
+}
+
+.coverPic img{
+	width:64px;
+}
+
+.info{
+	color:#888;
+	margin-left:80px;
+}
+
+.info p{
+	margin-bottom:4px;
+}
+
+.info .title{
+	margin-right:0.4em;
+	font-size:14px;
+	font-family:"Microsoft Yahei";
+	color:#666;
+}
+
+.info dl{
+	line-height:18px;
+	padding-top:2px;
+}
+
+.info dl dt{
+	color:#666;
+	width:10%;
+	display:inline-block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	vertical-align:top;
+}
+
+.info dl dd {
+	width:89%;
+	display:inline-block;
+	overflow:hidden;
+}
+
+.table-view {
+	margin:5px 0;
+	border-collapse:collapse;
+	word-wrap:break-word;
+	word-break:break-all;
+	font-size:12px;
+	line-height:22px;
+	color:#000;
+	border-spacing:0px;
+}
+
+tfoot {
+	clear:both;
+	margin-bottom:30px;
+	padding-top:8px;
+	padding-bottom:8px;
+	line-height:30px;
+	border-top:2px solid #ccc;
+	border-bottom:0 solid #e6e6e6;
+	overflow:hidden;
+	position:relative;
+}
+
+table th,table td{
+	padding:2px 10px;
+	font-size:12px;
+	line-height:22px;
+	border:1px solid #e6e6e6;
+}
+
+table th{
+	border-bottom:1px solid e6e6e6;
+	text-align:left;
+	font-weight:700;
+	height:23px;
+	background-color:#f8f8f8;
+}
+
+table td{
+	height:22px;
+}
+
+#white{
+	margin-top:30px;
+}
+
+address{
+	text-align:center;
+}
